@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+body {
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  transition: background-color 1s ease;;
+  background: linear-gradient(63deg, rgba(126,214,208,1) 35%, rgba(45,160,251,1) 100%);
+
+}
+
+
+.card{
+      color: black;
+}
+
+.number{
+font-size: 18px!important;
+font-weight: bold;
+}
+
+.title h1 {
+      font-size: 24px;
+      font-weight: bold;
+}
+

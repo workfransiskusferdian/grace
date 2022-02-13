@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+body {
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 400;
+  font-family: 'Satisfy', cursive;
+  color: white;
+  transition: background-color 1s ease;;
+  background: linear-gradient(63deg, rgba(126,214,208,1) 35%, rgba(45,160,251,1) 100%);
+
+}
+
+@keyframes fadein{
+      from {
+            opacity: 0;
+      }
+      to {
+            opacity: 1;
+      }
+}
+
+.intro {
+      top: 50%;
+      color: white;
+      animation: fadein 3s ease-in;
+}
+.intro p{
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+}
+
+
+.scene1 {
+      top: 50%;
+      color: white;
+      visibility: none;
+      animation: fadein 4s ease-in;
+      animation-play-state: paused;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+
+}
+.scene2 {
+      color: white;
+      visibility: none;
+      animation: fadein 4s ease-in;
+      animation-play-state: paused;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+}
+
+
+.container{
+      height: 100vh; 
+      display: flex;
+     flex-direction: column;
+     align-items: center; 
+     justify-content: center;
+     
+}
+
+.win {
+      top: 50%;
+      color: white;
+      animation: fadein 3s ease-in;
+      visibility: none;
+}
+.win p{
+      top: 50%;
+      color: white;
+      animation: fadein 3s ease-in;
+      visibility: none;
+      font-family: 'Poppins', sans-serif;
+
+}
+
+.direction1 {      
+      top: 50%;
+      color: white;
+      visibility: none;
+      animation: fadein 4s ease-in;
+      animation-play-state: paused;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+}
+.direction2 {
+      color: white;
+      visibility: none;
+      animation: fadein 4s ease-in;
+      animation-play-state: paused;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+}
+
+.form{
+     font-family: 'Poppins', sans-serif;
+      font-weight: 300; 
+}
+
